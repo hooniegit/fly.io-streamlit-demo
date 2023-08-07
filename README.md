@@ -10,11 +10,11 @@ $ pyenv virtualenv 3.9.16 streamlit
 $ pyenv global streamlit
 ```
 ``` bash
-$ pip install pipenv
-$ pipenv --python 3.9.16
-$ pipenv shell
 $ pipenv install streamlit
 ```
 
 ### 🖼️ Streamlit
-- 
+``` bash
+# run
+$ streamlit run app.py
+```
